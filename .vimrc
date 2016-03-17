@@ -35,7 +35,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-"Plugin 'pangloss/vim-javascript'  " Javascript syntax highlighting  - https://github.com/pangloss/vim-javascript
+Plugin 'pangloss/vim-javascript'  " Javascript syntax highlighting  - https://github.com/pangloss/vim-javascript
 Plugin 'skammer/vim-css-color'    " highlight CSS colors            - https://github.com/skammer/vim-css-color
 Plugin 'JulesWang/css.vim'        " CSS syntax highlighting         - https://github.com/JulesWang/css.vim
 Plugin 'leshill/vim-json'         " JSON syntax highlighting        - https://github.com/leshill/vim-json 
