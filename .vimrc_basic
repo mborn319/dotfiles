@@ -1,0 +1,22 @@
+" Show line numbers and whitespace characters in Vim.
+set number
+"set list
+
+"Indentation = 2 spaces, no tabs 
+" - thanks to http://stackoverflow.com/questions/232562/tab-key-4-spaces-and-auto-indent-after-curly-braces-in-vim 
+filetype plugin indent on
+
+" show existing tab with 2 spaces width
+set tabstop=2
+
+" when indenting with '>', use 2 spaces width
+set shiftwidth=2
+
+" On pressing tab, insert 2 spaces
+set expandtab
+
+" when you scroll to the bottom/top of the window, jump 12 characters
+set scrolljump=12
+
+" high contrast mode
+set background=dark
