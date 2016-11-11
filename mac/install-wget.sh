@@ -1,5 +1,7 @@
 #!/bin/env bash
 
+# Much thanks to http://www.mactricksandtips.com/2008/07/installing-wget-on-your-mac-for-terminal.html
+
 # download the latest GZ file.
 curl -O http://ftp.gnu.org/pub/gnu/wget/wget-1.18.tar.gz
 
