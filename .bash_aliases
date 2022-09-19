@@ -1,11 +1,5 @@
 # Aliases
 alias ll="ls -la";
-alias biking="cd /var/www/Server/biketrip/www/;ll";
-alias boombox="cd /var/www/Server/boombox/www/;ll";
-alias telnet="ssh";
-alias box="/home/michael/bin/box";
-alias artbylmr="cd /var/www/Server/artbylmr.com/www/bolt";
-alias flyway="/home/michael/bin/flyway-5.0.2/flyway";
 
 # Git aliases, just cause!
 alias gs="git status"
