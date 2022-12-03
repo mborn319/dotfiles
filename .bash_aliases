@@ -1,4 +1,4 @@
-# Aliases
+# Random Aliases
 alias ll="ls -la";
 
 # Git aliases, just cause!
@@ -6,7 +6,12 @@ alias gs="git status"
 alias gd="git diff"
 alias gb="git branch -va"
 
-
+# Docker Aliases
+alias dp="docker ps --format 'table {{.ID}}\t{{.Image}}\t{{.Names}}\t{{.Status}}'"
+alias dstart="docker-compose start"
+alias dstop="docker-compose stop"
+alias dre="docker-compose restart"
+alias dlog="docker-compose logs --tail=1 --follow"
 
 # Print file with octal file permissions
 # http://stackoverflow.com/questions/1795976/can-the-unix-list-command-ls-output-numerical-chmod-permissions
